@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <img src="moeda.png" alt="moeda">
+    <form>
+        <p>
+            <label>Salário por hora</label>
+            <input id="salario_hora">
+        </p>
+        <p>
+            <label>Quantidade de horas trabalhadas</label>
+            <input type="number" id="quantidade_hora" onchange="calcular()">
+        </p>
+    </form>
+    <h3 id="resultado">R$ 100.00</h3>
+    <script src="app.js"></script>
+</body>
+</html>
